@@ -1,0 +1,10 @@
+# Personal overrides for config.toml. Copy to config.local.toml (git-ignored),
+# or run `python3 -m proposal_pipeline setup`. Only list what you change.
+
+# [search]
+# year_from = 2018
+# results_per_query = 20
+# fields_of_study = ["Psychology"]
+
+# [download]
+# max_papers = 30

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m proposal_pipeline:*)",
+      "Bash(proposal-pipeline:*)"
+    ],
+    "deny": [
+      "Read(./.env)"
+    ]
+  }
+}

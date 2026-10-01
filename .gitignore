@@ -1,0 +1,20 @@
+# Secrets and personal settings
+.env
+config.local.toml
+
+# Proposal projects: confidential drafts and downloaded PDFs
+projects/*
+!projects/.gitkeep
+
+# Claude Code personal settings
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+build/
+dist/
+
+# OS
+.DS_Store
